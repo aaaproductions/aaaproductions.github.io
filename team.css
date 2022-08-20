@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+ 
+ 
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 3px;
+    transition: background 1s;
+
+}
+.header {
+  width: 100%;
+  height: 100vh;
+}
+
+.logo img{ 
+    width: 80px;
+    
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+
+} 
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.team_section {
+  font-size: xx-large;
+    margin-top: 5%;
+    text-align: center;
+    font-size: larger;
+  }
+  
+  .team_card-container {
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+  
+  .team_card {
+    width: 250px;
+    padding: 0 15px;
+    margin: 35px 0;
+  }
+  
+  .team_card h5 {
+    text-transform:none;
+  }
+  
+  .team_card img {
+    
+    width: 100%;
+  }
+ 
+  
+  .team_detail-box {
+
+    font-size: 22px;
+    color:aliceblue;
+    width: 150px;
+    margin: 45px auto 0 auto;
+    
+  }
+
+  .social_icon{
+    padding: 7px;
+    margin:7px;
+  }
+  
+  .team_social {
+    display: flex;
+    justify-content:space-between;
+  
+    
+  }
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Style the social media icons with color, if you want */
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  
+  .instagram {
+    background:  #fb3958;
+    color: white;
+  }
+  
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
+ 
+
+  @media screen and (max-width: 1040px)  {
+    .header{
+      height: max-content;
+    }
+  }
+/* copyright name and credits */
+  .copyright{
+    margin-top: 550px;
+    font-family:'Poppins', sans-serif;
+    color:beige;
+    text-decoration: none;
+   /* margin: 60px 0 20px 0; */
+   text-align: center;
+   font-size: 15px;
+  
+
+}
+.creator{
+   color:rgb(255, 229, 32);;
+   text-decoration: none;
+   
+}
+.post{
+  margin-top: 2px;
+  font-size: 16px;
+  
+}
+
+
+
+.team{
+  color:azure;
+  font-size: 28px;
+  text-align: center;
+
+}
+.aun{
+
+  color:aliceblue;
+  width: 150px;
+  margin: 45px auto 0 auto;
+  font-size: 20px;
+  color: aliceblue;
+} 
+.team_img-box{
+  -moz-box-shadow: 0px 6px 5px rgb(35, 35, 35);
+  box-shadow: 0px 6px 5px rgb(35, 35, 35);
+  -moz-border-radius:90px;
+  border-radius:1200px;
+}
